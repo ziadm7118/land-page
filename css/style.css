@@ -80,3 +80,40 @@ header ul li a{
 }
 
 
+.cards-services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.services-section h2{
+    display: inline;
+    width: 100%;
+    margin: 20px 40px;
+    
+}
+
+.card-service{
+    background-color: beige;
+    margin: 10px 20px;
+    width: 280px;
+    max-width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+.more-btn-services{
+    padding: 10px 40px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
