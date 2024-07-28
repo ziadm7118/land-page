@@ -131,25 +131,37 @@
     </section>
 
     <section class="contact-us">
-        <h2>contact us</h2>
-
-        <form>
-            <label for="name">name</label>
-            <input type="text" id="name" >
-
-            <label for="email">name</label>
-            <input type="email" id="email" >
-
-            <label for="title">name</label>
-            <input type="text" id="title" >
-
-            <label for="num">name</label>
-            <input type="text" id="num" >
-
-            <label for="text-area">name</label>
-            <textarea id="text-area"></textarea>
-
-            <input type="button" value="send">
+        <h2>Contact Us</h2>
+    
+        <form class="form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="num">Number</label>
+                <input type="text" id="num" required>
+            </div>
+    
+            <div class="form-group full-width">
+                <label for="text-area">Message</label>
+                <textarea id="text-area" rows="5" required></textarea>
+            </div>
+    
+            <div class="btn-contact">
+                <input type="button" value="Send">
+            </div>
         </form>
     </section>
 
