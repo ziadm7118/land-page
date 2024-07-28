@@ -212,3 +212,86 @@ header ul li a{
     margin-top: 20px;
     color: white;
 }
+
+.com-img{
+    width: 240px;
+    height: 110px;
+}
+
+footer{
+    padding:0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.first-sec,
+.second-sec,
+.third-sec{
+    width: 470px;
+    max-width: 100%;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-social{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.first-sec ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.first-sec li{
+    padding: 10px 0;
+    margin: 0 10px;
+}
+
+.second-sec ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.second-sec li{
+    padding: 10px 0;
+}
+
+.second-sec a{
+    text-decoration: none;
+    color: black;
+}
+
+.third-sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.third-sec a{
+    text-decoration: none;
+    color: black;
+    margin: 0 ;
+    padding: 0;
+}
+
+.third-sec ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.third-sec li{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.third-sec li img {
+    margin-right: 10px; 
+    vertical-align: middle;
+}
