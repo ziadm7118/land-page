@@ -117,3 +117,35 @@ header ul li a{
     display: flex;
     justify-content: center;
 }
+
+.blog h2{
+    margin: 20px 40px;
+}
+
+.blog-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.blog-card{
+    background-color: beige;
+    padding: 20px;
+    width: 300px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.more-btn-blog{
+    padding: 10px 40px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
